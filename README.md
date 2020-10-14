@@ -16,6 +16,9 @@ Pytorch compiled with ROCm.
 ### Get Pytorch source code from [ROCmSoftwarePlatform](https://github.com/ROCmSoftwarePlatform/pytorch).
   ```
   git clone --recursive https://github.com/ROCmSoftwarePlatform/pytorch.git
+  
+  cd pytorch
+  git submodule update --init --recursive
   ```
 
 ### Initialize the environment.
